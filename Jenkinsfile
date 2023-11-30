@@ -1,8 +1,11 @@
 pipeline{
   agent any
-  stages{
+   stages{
     stage("test "){
-      echo "this stage run from git by mubshar hussain by jenkinsfile"
+      steps{
+         echo "this stage run from git by musher hussain by Jenkins file"
+      }
+     
     }
   }
 }
